@@ -1,0 +1,23 @@
+@media(max-width:768px){
+    .footer-nav{
+        display: none;
+    }
+    .burger-menu{
+        display:flex;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    }
+    ul li{
+        display: none;
+    }
+    .active{
+        display: block;
+
+    }
+    ul{
+        justify-content:flex-start;
+    }
+
+ 
+}
